@@ -1,4 +1,4 @@
-### CodeBook for the run_analysis.R script
+## CodeBook for the run_analysis.R script
 
 # The run_analysis.R script processed: download dataset, perform all 5 requirements in the Getting and Cleaning Data Course Project.
 
@@ -17,7 +17,7 @@ There are 6 datasets read in:
 * y_train: 'data.frame':	7352 obs. of  1 variable. Training labels.
 
 
-## II _ Project Assigement
+## II _ Project Assignment
 
 # 1. Merges the training and the test sets to create one data set.
 
@@ -43,11 +43,11 @@ ectracted.data$labels was changed from int (int  5 5 5 5 5 5 5 5 5 5 ...) to str
 # 4. Appropriately labels the data set with descriptive variable names.
 
 It is stated in the feature.info.txt:  
-* The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
-* These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
+* The features selected for this database come from the ###accelerometer and ###gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
+* These time domain signals (### prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
 * Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
-* Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
-* Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+* Also the ### magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+* Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (### Note the 'f' to indicate frequency domain signals). 
 
 See the unique variable nammes by the unique() function.
 Change 
