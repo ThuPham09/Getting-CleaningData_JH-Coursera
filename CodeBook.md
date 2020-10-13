@@ -31,14 +31,14 @@ It is stated in the readme.txt: "The obtained dataset has been randomly partitio
 # 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 
 The function select() was used along with contain() to extract only variable names contained "means" and "sd".
-The extracted data named ectracted.data.
+The extracted data named extracted.data.
 The data is 'data.frame', contained	10299 obs. of  88 variables.
 
 
 # 3. Uses descriptive activity names to name the activities in the data set
 
-ectracted.data: 'data.frame':	10299 obs. of  88 variables
-ectracted.data$labels was changed from int (int  5 5 5 5 5 5 5 5 5 5 ...) to string (chr  "STANDING" "STANDING" "STANDING" "STANDING")
+extracted.data: 'data.frame':	10299 obs. of  88 variables
+extracted.data$labels was changed from int (int  5 5 5 5 5 5 5 5 5 5 ...) to string (chr  "STANDING" "STANDING" "STANDING" "STANDING")
 
 # 4. Appropriately labels the data set with descriptive variable names.
 
@@ -66,7 +66,7 @@ And check the colnames() function again to see the work done.
 
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Since we need to see the average of each variable for each activity and each subject, then using group_by() function for the ectracted.data for the 2 variables "activity" and "subject" will be appropridate.
+Since we need to see the average of each variable for each activity and each subject, then using group_by() function for the extracted.data for the 2 variables "activity" and "subject" will be appropridate.
 Use summarise_all() function to sumarise for all variable in the dataset, with the function mean().
 tidy.data is finally prepared with 180 observations and 88 variables. 
 
