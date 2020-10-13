@@ -58,12 +58,9 @@ Change
 "BodyBody" to "Body", 
 "Mag" to "Magnitude",
 "BodyBody" to "Body",
-"tBody" to "TimeBody"
 ".mean" to "_Mean"
 ".std" to "_StandardDeviation"
 ".freq" to "_Frequency"
-"angle" to "Angle"
-"gravity" to "Gravity"
 "-" to "_" 
 And check the colnames() function again to see the work done.
 
